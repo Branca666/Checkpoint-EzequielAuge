@@ -1,0 +1,237 @@
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digital House/Introducción a la informática/Checkpoint
+$ cd Checkpoint-EzequielAuge
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digital House/Introducción a la informática/Checkpoint/Checkpoint-EzequielAuge
+$ git init
+Initialized empty Git repository in C:/Users/ezequ/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digital House/Introducción a la informática/Checkpoint/Checkpoint-EzequielAuge/.git/
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digital House/Introducción a la informática/Checkpoint/Checkpoint-EzequielAuge (main)
+$ git commit -m "commit 01 de EzequielAuge"
+On branch main
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digital House/Introducción a la informática/Checkpoint/Checkpoint-EzequielAuge (main)
+$ git remote add origin https://github.com/Branca666/Checkpoint-EzequielAuge.git
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digital House/Introducción a la informática/Checkpoint/Checkpoint-EzequielAuge (main)
+$ gir branch -m main
+bash: gir: command not found
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digital House/Introducción a la informática/Checkpoint/Checkpoint-EzequielAuge (main)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Branca666/Checkpoint-EzequielAuge.git'
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digital House/Introducción a la informática/Checkpoint/Checkpoint-EzequielAuge (main)
+$ git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digital House/Introducción a la informática/Checkpoint/Checkpoint-EzequielAuge (main)
+$ touch main.js index.html
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digitatroducción a la informática/Checkpoint/Checkpoint-EzequielAuge (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+        main.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digitatroducción a la informática/Checkpoint/Checkpoint-EzequielAuge (main)
+$ git commit --am "commit 01 de ezequielAuge"
+fatal: You have nothing to amend.
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digitatroducción a la informática/Checkpoint/Checkpoint-EzequielAuge (main)
+$ git commit --ma "commit 01 de ezequielAuge"
+error: unknown option `ma'
+usage: git commit [-a | --interactive | --patch] [-s] [-v] [-u<mode>] [--amend]
+                  [--dry-run] [(-c | -C | --squash) <commit> | --fixup [(amend|reword>)]
+                  [-F <file> | -m <msg>] [--reset-author] [--allow-empty]
+                  [--allow-empty-message] [--no-verify] [-e] [--author=<author>]
+                  [--date=<date>] [--cleanup=<mode>] [--[no-]status]
+                  [-i | -o] [--pathspec-from-file=<file> [--pathspec-file-nul]]
+                  [(--trailer <token>[(=|:)<value>])...] [-S[<keyid>]]
+                  [--] [<pathspec>...]
+
+    -q, --quiet           suppress summary after successful commit
+    -v, --verbose         show diff in commit message template
+
+Commit message options
+    -F, --file <file>     read message from file
+    --author <author>     override author for commit
+    --date <date>         override date for commit
+    -m, --message <message>
+                          commit message
+    -c, --reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --reuse-message <commit>
+                          reuse message from specified commit
+    --fixup [(amend|reword):]commit
+                          use autosquash formatted message to fixup or amend/reword sommit
+    --squash <commit>     use autosquash formatted message to squash specified commit
+    --reset-author        the commit is authored by me now (used with -C/-c/--amend)
+    --trailer <trailer>   add custom trailer(s)
+    -s, --signoff         add a Signed-off-by trailer
+    -t, --template <file>
+                          use specified template file
+    -e, --edit            force edit of commit
+    --cleanup <mode>      how to strip spaces and #comments from message
+    --status              include status in commit message template
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --all             commit all changed files
+    -i, --include         add specified files to index for commit
+    --interactive         interactively add files
+    -p, --patch           interactively add changes
+    -o, --only            commit only specified files
+    -n, --no-verify       bypass pre-commit and commit-msg hooks
+    --dry-run             show what would be committed
+    --short               show status concisely
+    --branch              show branch information
+    --ahead-behind        compute full ahead/behind values
+    --porcelain           machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    --amend               amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Def
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated haracter
+
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digitatroducción a la informática/Checkpoint/Checkpoint-EzequielAuge (main)
+$ git add .
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digitatroducción a la informática/Checkpoint/Checkpoint-EzequielAuge (main)
+$ git commit -m "commit 01 de EzequielAuge"
+[main (root-commit) 16a7398] commit 01 de EzequielAuge
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+ create mode 100644 main.js
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digitatroducción a la informática/Checkpoint/Checkpoint-EzequielAuge (main)
+$ git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 237 bytes | 237.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Branca666/Checkpoint-EzequielAuge.git
+ * [new branch]      main -> main
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digitatroducción a la informática/Checkpoint/Checkpoint-EzequielAuge (main)
+$ git branch feature
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digitatroducción a la informática/Checkpoint/Checkpoint-EzequielAuge (main)
+$ git checkout feature
+Switched to branch 'feature'
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digitatroducción a la informática/Checkpoint/Checkpoint-EzequielAuge (feature)
+$ mkdir Hardware Software SeguridadInformatica
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digitatroducción a la informática/Checkpoint/Checkpoint-EzequielAuge (feature)
+$ ls
+Hardware/  SeguridadInformatica/  Software/  index.html  main.js
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digitatroducción a la informática/Checkpoint/Checkpoint-EzequielAuge (feature)
+$ cd Hardware
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digitatroducción a la informática/Checkpoint/Checkpoint-EzequielAuge/Hardware (feature)
+$ touch resumen.txt
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digitatroducción a la informática/Checkpoint/Checkpoint-EzequielAuge/Hardware (feature)
+$ cd..
+bash: cd..: command not found
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digitatroducción a la informática/Checkpoint/Checkpoint-EzequielAuge/Hardware (feature)
+$ ..cd
+bash: ..cd: command not found
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digitatroducción a la informática/Checkpoint/Checkpoint-EzequielAuge/Hardware (feature)
+$ cd ..
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digitatroducción a la informática/Checkpoint/Checkpoint-EzequielAuge (feature)
+$ cd Software
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digitatroducción a la informática/Checkpoint/Checkpoint-EzequielAuge/Software (feature)
+$ touch resumen.txt
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digitatroducción a la informática/Checkpoint/Checkpoint-EzequielAuge/Software (feature)
+$ cd ..
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digitatroducción a la informática/Checkpoint/Checkpoint-EzequielAuge (feature)
+$ cd SeguridadInformatica
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digitatroducción a la informática/Checkpoint/Checkpoint-EzequielAuge/SeguridadInformatica (
+$ touch resumen.txt
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digitatroducción a la informática/Checkpoint/Checkpoint-EzequielAuge/SeguridadInformatica (
+$ cd ..
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digitatroducción a la informática/Checkpoint/Checkpoint-EzequielAuge (feature)
+$ git add .
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digitatroducción a la informática/Checkpoint/Checkpoint-EzequielAuge (feature)
+$ git commit -m "commit 02 de EzequielAuge"
+[feature 508c2c8] commit 02 de EzequielAuge
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Hardware/resumen.txt
+ create mode 100644 SeguridadInformatica/resumen.txt
+ create mode 100644 Software/resumen.txt
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digitatroducción a la informática/Checkpoint/Checkpoint-EzequielAuge (feature)
+$ git push origin feature
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 375 bytes | 375.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'feature' on GitHub by visiting:
+remote:      https://github.com/Branca666/Checkpoint-EzequielAuge/pull/new/feature
+remote:
+To https://github.com/Branca666/Checkpoint-EzequielAuge.git
+ * [new branch]      feature -> feature
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digitatroducción a la informática/Checkpoint/Checkpoint-EzequielAuge (feature)
+$ git checkout main
+Switched to branch 'main'
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digitatroducción a la informática/Checkpoint/Checkpoint-EzequielAuge (main)
+$ mv main.js resumeHardware.txt
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digital House/Introducción a la informática/Checkpoint/Checkpoint-EzequielAuge (main)
+$ mv index.html resumenSoftware.txt
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digital House/Introducción a la informática/Checkpoint/Checkpoint-EzequielAuge (main)
+$ ls
+resumeHardware.txt  resumenSoftware.txt
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digital House/Introducción a la informática/Checkpoint/Checkpoint-EzequielAuge (main)
+$ open resumeHardware.txt
+bash: open: command not found
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digital House/Introducción a la informática/Checkpoint/Checkpoint-EzequielAuge (main)
+$ touch comandos.txt
+
+ezequ@Auge MINGW64 ~/OneDrive/Diseño/Desarrollo Web/Certified Tech Developer - Digital House/Introducción a la informática/Checkpoint/Checkpoint-EzequielAuge (main)
+$
